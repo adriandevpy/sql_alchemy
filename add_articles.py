@@ -5,7 +5,7 @@ from faker import Faker
 
 def main():
     author = session.query(Author).filter_by(
-        user_name="sammy"
+        user_name="oliviaw"
     ).one()
 
     fake = Faker()
